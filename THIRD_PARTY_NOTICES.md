@@ -1,6 +1,6 @@
 # Third-party notices
 
-Kalimera Family is built on the open work of others. This list covers the Android test build 0.2.1 (19 November 2026) and the model files it downloads. The same credits are in the app under **Settings → About and licences**.
+Kalimera Family is built on the open work of others. This list covers the Android test build 0.2.1 (19 November 2026) and the model files it downloads. The same credits are in the app under **Settings → About and licences**. The full licence texts are in [LICENSES/](LICENSES/): MIT, Apache-2.0, BSD-2-Clause, OFL-1.1, CC BY 4.0 and CC BY-SA 4.0.
 
 ## Inside the app (APK)
 

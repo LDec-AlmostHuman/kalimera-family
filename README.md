@@ -28,7 +28,7 @@ My mother is over 70. She asked a popular AI assistant a simple question and got
 
 ## Try it on Android
 
-1. Download the APK from **[Releases](../../releases)**: `kalimera-family-0.2.1-demo-20261119.apk` (25 MB).
+1. Download the APK from the **[app folder](app/)**: [`kalimera-family-0.2.1-demo-20261119.apk`](https://github.com/LDec-AlmostHuman/kalimera-family/raw/main/app/kalimera-family-0.2.1-demo-20261119.apk) (25 MB).
    SHA-256: `8ac71764e7ed651bac23687e852975e42ba13a52e761ba25b794fccad95a980c`
 2. Open it on the phone and allow "Install from this source". Google Play Protect may warn about an unknown developer: tap **More details**, then **Install anyway**.
 3. Choose your language and agree to the terms.
@@ -74,4 +74,9 @@ Built on open models and tools: Whisper (OpenAI) and whisper.cpp, Gemma (Google)
 
 Łukasz, [kalimera.family](https://kalimera.family) · https://almostcyb.org - please fill contact us form there.
 
-Licence of this repository's documents: will be filled soon based on required licenses.
+## Licences
+
+- **Documents and screenshots** in this repository: [CC BY 4.0](LICENSE). You may share and adapt them with credit to Kalimera Family.
+- **Name and logo** (Kalimera Family, `docs/images/Kalimera.Family-*.svg`): not covered by CC BY 4.0; please ask before using them.
+- **Android test build (APK)**: contains the open-source parts listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), each under its own licence. Full licence texts: [LICENSES/](LICENSES/).
+- **Source code**: not published yet. It will be published here under an open-source licence before the pilots.
