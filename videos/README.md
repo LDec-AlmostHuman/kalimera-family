@@ -5,6 +5,7 @@ Short videos of Kalimera Family. The demo clips are screen recordings with the a
 | Video | What it shows | Link |
 |---|---|---|
 | Introduction | Why Kalimera Family exists and what it does (about 2 minutes) | coming soon (YouTube) |
+| Demo: one question about bleeding (English) | The app's Home screen, then the question "How do I stop heavy bleeding?" (typed). The fixed Bleeding card opens at once, with no AI model involved, and is read aloud. Galaxy A37, Android 17, offline, country set to the United Kingdom (so the number is 999). 63 s, app sound only. | [1920 × 1080](kalimera_demo_bleeding_en_1080p.mp4) · [phone format 1080 × 2230](kalimera_demo_bleeding_en_portrait.mp4) |
 
 The demo clips show the Android test build 0.2.1 (demo) from the [app folder](../app/). Emergency, health and scam texts in them are drafts that have not been reviewed yet; see the demo notice in the [README](../README.md).
 
