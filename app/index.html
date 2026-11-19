@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Kalimera Family</title>
+    <script>
+      // Sets theme-light or theme-dark before the first paint: the saved Light / Dark choice, else the phone's setting.
+      (function () {
+        try {
+          var m = localStorage.getItem('kalimera.theme');
+          var d = m === 'dark' || (m !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.classList.add(d ? 'theme-dark' : 'theme-light');
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-BxVog3c1.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Co8xbSPm.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
