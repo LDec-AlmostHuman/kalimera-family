@@ -4,7 +4,8 @@
 
 **A private voice assistant that anyone can use.** Made first for older people, and for anyone who finds small text, long answers or typing hard: in their own language, on an ordinary phone.
 
-**Website with a live demo of the app: [kalimera.family](https://kalimera.family)**
+**Website with a live demo of the app: [ldec-almosthuman.github.io/kalimera-family](https://ldec-almosthuman.github.io/kalimera-family/)**
+(temporary address; it moves to [kalimera.family](https://kalimera.family) once the hosting there is ready)
 
 Kalimera Family answers in one to three short sentences, reads the answer aloud and shows it in large letters. It warns about scams and gives calm, fixed help in an emergency. Speech recognition and answers run on the phone. The voice never leaves the device and no cloud AI is used.
 
