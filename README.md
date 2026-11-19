@@ -72,6 +72,6 @@ Built on open models and tools: Whisper (OpenAI) and whisper.cpp, Gemma (Google)
 
 ## Contact
 
-Łukasz, [kalimera.family](https://kalimera.family) · [FILL: e-mail]
+Łukasz, [kalimera.family](https://kalimera.family) · https://almostcyb.org - please fill contact us form there.
 
-Licence of this repository's documents: [FILL: e.g. CC BY 4.0 — see the publishing checklist]
+Licence of this repository's documents: will be filled soon based on required licenses.
