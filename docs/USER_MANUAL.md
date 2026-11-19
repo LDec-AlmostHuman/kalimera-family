@@ -116,6 +116,14 @@ Tap a red tile, for example **Call from the bank**. The app reads a short story 
 
 The moon button switches to the dark screen; the sun button switches back. The colours keep their meaning: blue for Speak, green for Conversation, red for emergency and scams.
 
+### Look of the app
+
+The app has two looks. **Calm cards** (the default) has the open-window logo. **Green meadow** has soft green hills along the top and green outlines. Choose one in **Settings → Text → Look of the app**. Both work with the light and dark screen, and in both the colours keep their meaning.
+
+<img src="images/settings_look_of_the_app.png" alt="Look of the app in Settings" width="200"> <img src="images/skin_meadow_home.png" alt="Green meadow, light screen" width="200"> <img src="images/skin_meadow_home_dark.png" alt="Green meadow, dark screen" width="200">
+
+More looks can be added on request, for example in a care home's own style.
+
 ## 11. Things you can say
 - "What time is it?" · "What day is it today?"
 - "Whose name day is it today?"

@@ -26,6 +26,12 @@ My mother is over 70. She asked a popular AI assistant a simple question and got
 | **Easy to read** | Text size A+ / A−, light and dark themes, one colour per meaning (blue Speak, green Conversation, red Emergency). |
 | **Languages** | Polish, English, German, Romanian. Greek is being improved and will come back later. The country (for example Austria or Germany, UK or Ireland) sets emergency numbers and local content. |
 
+## Two looks, more on request
+
+The app comes with two looks (skins), chosen in **Settings → Look of the app**: **Calm cards** (default) and **Green meadow**. Each has a light and a dark screen. Every look keeps the same colour for the same meaning: blue Speak, green Conversation, red Emergency help and scams. Other looks can be made on request, for example in a care home's own style, without changing how the app works.
+
+<p align="center"><img src="docs/images/home.png" alt="Calm cards" width="200"> <img src="docs/images/skin_meadow_home.png" alt="Green meadow, light" width="200"> <img src="docs/images/skin_meadow_home_dark.png" alt="Green meadow, dark" width="200"> <img src="docs/images/skin_meadow_help.png" alt="Green meadow, Help screen" width="200"></p>
+
 ## Try it on Android
 
 1. Download the APK from the **[app folder](app/)**: [`kalimera-family-0.2.1-demo-20261119.apk`](https://github.com/LDec-AlmostHuman/kalimera-family/raw/main/app/kalimera-family-0.2.1-demo-20261119.apk) (25 MB).
@@ -69,6 +75,10 @@ About half of all questions are answered by the fixed steps, without any AI mode
 ## Credits
 
 Built on open models and tools: Whisper (OpenAI) and whisper.cpp, Gemma (Google), Bielik (SpeakLeash / ACK Cyfronet AGH), llama.cpp, Pocket TTS (Kyutai), Capacitor and Svelte. Name-day data comes from Wikipedia contributors (CC BY-SA 4.0) and trends.ro (CC BY 4.0). Full list: **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**, also in the app under Settings → About and licences.
+
+## Videos
+
+Demo clips and the introduction video: **[videos/](videos/)**.
 
 ## Contact
 
