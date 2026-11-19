@@ -10,6 +10,7 @@
   var playing = false;
   var timer = null;
   var run = 0;
+  var loads = 0;
 
   var frame = document.getElementById('phone');
   if (!frame) return;
@@ -30,14 +31,18 @@
     return new Promise(function (resolve) { setTimeout(resolve, ms); });
   }
 
-  /** Loads the app fresh on its Home screen. */
+  /** Loads the app fresh on its Home screen. Only the newest load counts: an older one that is replaced never
+      resolves, so its step stops instead of pressing buttons in the new app. */
   function reload() {
+    var mine = ++loads;
     return new Promise(function (resolve) {
       prepare();
-      frame.addEventListener('load', function () {
+      frame.addEventListener('load', function onLoad() {
+        if (mine !== loads) return frame.removeEventListener('load', onLoad);
+        frame.removeEventListener('load', onLoad);
         watchTouches();
-        wait(400).then(resolve);
-      }, { once: true });
+        wait(400).then(function () { if (mine === loads) resolve(); });
+      });
       frame.src = APP + '&t=' + Date.now();
     });
   }
@@ -201,7 +206,8 @@
   var target = document.getElementById('try');
   if ('IntersectionObserver' in window && target) {
     var seen = new IntersectionObserver(function (entries) {
-      if (entries.some(function (e) { return e.isIntersecting; })) { seen.disconnect(); reload(); }
+      // Skipped when a step already loaded the app (a click before the tour came into view).
+      if (entries.some(function (e) { return e.isIntersecting; })) { seen.disconnect(); if (!loads) reload(); }
     }, { rootMargin: '400px 0px' });
     seen.observe(target);
   } else {
