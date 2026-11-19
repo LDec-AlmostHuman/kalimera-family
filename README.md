@@ -2,7 +2,9 @@
 
 # Kalimera Family
 
-**A private voice assistant for older people, in their own language, on an ordinary phone.**
+**A private voice assistant that anyone can use.** Made first for older people, and for anyone who finds small text, long answers or typing hard: in their own language, on an ordinary phone.
+
+**Website with a live demo of the app: [kalimera.family](https://kalimera.family)**
 
 Kalimera Family answers in one to three short sentences, reads the answer aloud and shows it in large letters. It warns about scams and gives calm, fixed help in an emergency. Speech recognition and answers run on the phone. The voice never leaves the device and no cloud AI is used.
 
@@ -34,8 +36,8 @@ The app comes with two looks (skins), chosen in **Settings → Look of the app**
 
 ## Try it on Android
 
-1. Download the APK from the **[app folder](app/)**: [`kalimera-family-0.2.1-demo-20261119.apk`](https://github.com/LDec-AlmostHuman/kalimera-family/raw/main/app/kalimera-family-0.2.1-demo-20261119.apk) (25 MB).
-   SHA-256: `8ac71764e7ed651bac23687e852975e42ba13a52e761ba25b794fccad95a980c`
+1. Download the newest APK from the **[app folder](app/)**: today [`kalimera-family-0.2.1-demo-20261119-1354.apk`](https://github.com/LDec-AlmostHuman/kalimera-family/raw/main/app/kalimera-family-0.2.1-demo-20261119-1354.apk) (25 MB).
+   Its SHA-256 checksum is in the `.sha256` file next to it.
 2. Open it on the phone and allow "Install from this source". Google Play Protect may warn about an unknown developer: tap **More details**, then **Install anyway**.
 3. Choose your language and agree to the terms.
 4. The app downloads its language files once over Wi-Fi: about **1.2 GB** for Polish, about **2.9 GB** for English, German or Romanian. After that it works without internet.

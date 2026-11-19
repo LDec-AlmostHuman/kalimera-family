@@ -10,7 +10,7 @@ Android test version 0.2.1 (demo), 19 November 2026. The screenshots come from a
 - Wi-Fi for the first start.
 
 ## 2. Install
-1. Download `kalimera-family-0.2.1-demo-20261119.apk` from the **app** folder of the project on GitHub.
+1. Download the newest `kalimera-family-…apk` file from the **app** folder of the project on GitHub.
 2. Open the file on the phone. When Android asks, switch on **Allow from this source** and go back.
 3. Tap **Install**. If Google Play Protect warns about an unknown developer, tap **More details**, then **Install anyway**. This is expected for a test version that is not in the Play Store.
 4. Tap **Open**.
